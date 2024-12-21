@@ -1,0 +1,206 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*menu de navigation*/
+nav {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*section de bienvenue*/
+.bienvenue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    background-color: lightblue;
+    flex-direction: column;
+}
+
+
+.bienvenue a {
+    margin-top: 50px;
+    width: 150px;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/*section apropos*/
+#about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.div_un h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.div_un {
+    flex: 1;
+    background-color: rgb(247, 131, 131);
+    height: 290px;
+    width: auto;
+    padding: 10px;
+}
+
+.div_deux img {
+    height: 310px;
+}
+
+#work {
+    padding: 30px 20px; /* Ajoute de l'espace autour de la section */
+    background-color: #f4f4f4;
+}
+
+.work-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px; /* Espacement entre les divs */
+    margin-top: 10px; /* Espacement supplémentaire en haut des divs */
+    margin-bottom: 20px; /* Espacement supplémentaire en bas des divs */
+}
+
+.div {
+    background-color: #a1a1a1;
+    color: white;
+    aspect-ratio: 1 / 1; /* Maintient un carré */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#work h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffe4c4;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #14b2e7;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #14b2e7;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #0d8db3;
+}
+
+
+
+
+footer {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
